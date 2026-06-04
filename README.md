@@ -46,14 +46,14 @@ GitHub Repo Explorer is a full-stack web application that lets you search any Gi
 ---
  ## Architecture
 
-Frontend (React + Vite)
+
 
 User
- ↓
+ →
 React Application
- ↓
+ →
 Express Backend API
- ↓
+ →
 GitHub REST API
 
 The frontend never communicates directly with GitHub.
